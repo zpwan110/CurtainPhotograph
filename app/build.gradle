@@ -1,0 +1,105 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+    defaultConfig {
+        applicationId "curtain.photograph.com"
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode 1
+        versionName "1"
+        renderscriptTargetApi 21
+        renderscriptSupportModeEnabled true
+        testInstrumentationRunner rootProject.ext.android.testInstrumentationRunner
+        vectorDrawables.useSupportLibrary = true
+        flavorDimensions "versionCode"
+        resourcePrefix ""
+    }
+
+    //设置java版本
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+   /* signingConfigs {
+        Properties keystorePro = new Properties()
+        keystorePro.load(new FileInputStream(file('../keystore.properties')))
+        release {
+            storeFile file(keystorePro['store'])
+            storePassword keystorePro['storePass']
+            keyAlias keystorePro['alias']
+            keyPassword keystorePro['pass']
+            v1SigningEnabled true
+            v2SigningEnabled false
+        }
+        debug {
+            storeFile file(keystorePro['store'])
+            storePassword keystorePro['storePass']
+            keyAlias keystorePro['alias']
+            keyPassword keystorePro['pass']
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }*/
+    buildTypes {
+        release {
+//            signingConfig signingConfigs.release
+            minifyEnabled true//混淆
+            zipAlignEnabled true//压缩优化
+            shrinkResources true//移除无用resource资源
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName ="ricewallet_${variant.productFlavors[0].name}"+"_${defaultConfig.versionName}.apk"
+                }
+            }
+        }
+        debug {
+//            signingConfig signingConfigs.debug
+            minifyEnabled false//混淆
+            zipAlignEnabled true//压缩优化
+            shrinkResources false//移除无用resource资源
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+//        app_H5_market{}
+        app_vivo_market{}
+        app_wandoujia_market{}
+        app_meizu_market{}
+        app_360_market{}
+        app_xiaomi_market{}
+        app_huawei_market{}
+        app_baidu_market{}
+        app_oppo_market{}
+        app_yyb_market{}
+        productFlavors.all { flavor ->
+            flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+        }
+    }
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation project(path: ':base')
+    implementation rootProject.ext.dependencies.constraintLayout
+
+
+}
