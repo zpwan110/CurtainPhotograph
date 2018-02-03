@@ -19,7 +19,6 @@ import android.view.WindowManager;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-
 import java.util.List;
 
 /**

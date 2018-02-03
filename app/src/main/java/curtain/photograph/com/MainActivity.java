@@ -16,12 +16,24 @@ import base.injectionview.Click;
 import base.injectionview.Id;
 import base.injectionview.Layout;
 import base.util.ToastUtil;
+import curtain.photograph.com.base.App;
 
 @Layout(R.layout.activity_main)
 public class MainActivity extends BaseActivity {
 
     private static final int REQUEST_CODE_IMAGE = 0;
     private static final int REQUEST_CODE_CAMERA = 1;
+    public static final int HOME = 0;
+    public static Intent newIntent( int pageIndex) {
+        Intent it = new Intent(App.getContext(), MainActivity.class);
+        it.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        return it;
+    }
+    public static Intent newIntent() {
+        Intent it = new Intent(App.getContext(), MainActivity.class);
+        it.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        return it;
+    }
     @Id(R.id.takePhoto)
     TextView takePhoto;
     @Override
@@ -34,13 +46,13 @@ public class MainActivity extends BaseActivity {
         PermissionActivity.requestPermission((Activity) activity, new String[]{Manifest.permission.CAMERA}, "需要授权使用摄像头", new PermissionActivity.OnPermissionCallback() {
             @Override
             public void onPermissionAuthenticated() {
-                ToastUtil.showToast("授权成功",activity);
+                ToastUtil.showToast("授权成功");
                 Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 startActivityForResult(intent, REQUEST_CODE_CAMERA);
             }
             @Override
             public void onPermissionDenied() {
-                ToastUtil.showToast("授权失败",activity);
+                ToastUtil.showToast("授权失败");
             }
         });
     }
@@ -63,4 +75,5 @@ public class MainActivity extends BaseActivity {
         }
 
     }
+
 }

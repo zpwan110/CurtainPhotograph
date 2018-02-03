@@ -33,18 +33,39 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <application
         android:allowBackup="true"
+        android:name=".base.App"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name=".MainActivity" >
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="true"
+        >
+        <activity
+            android:name=".LaunchActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/LaunchStyle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainStyle">
+            <intent-filter>
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GuideActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <meta-data android:value="${UMENG_CHANNEL_VALUE}" android:name="RICE_CHANNEL"/>
     </application>
 </manifest>

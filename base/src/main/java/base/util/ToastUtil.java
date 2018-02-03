@@ -1,27 +1,39 @@
 package base.util;
 
-import android.app.Application;
-import android.content.Context;
 import android.view.Gravity;
 import android.widget.Toast;
 
-public class ToastUtil {
+import base.BaseUtil;
+
+/**
+ * @author zhangpeng
+ */
+public class ToastUtil extends BaseUtil{
 
 
-	public static void showToast(String str, Context context) {
+	public static void showToast(String str) {
+		if(context==null){
+			throw new NullPointerException("context for BaseUtil  can not  be null");
+		}
 		Toast toast = Toast.makeText(context, str, Toast.LENGTH_LONG);
 		toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM, 0, 0);
 		toast.show();
 	}
 
-	protected static void showToastResources(int id, Context context) {
-		showToast(context.getResources().getString(id), context);
+	protected static void showToastResources(int id) {
+		if(context==null){
+			throw new NullPointerException("context for BaseUtil  can not  be null");
+		}
+		showToast(context.getResources().getString(id));
 	}
 
-	protected static void showToastFailPic(Application mAppContext,String message){
+	protected static void showToastFailPic(String message){
+		if(BaseUtil.context ==null){
+			throw new NullPointerException("context for BaseUtil  can not  be null");
+		}
 		Toast mSuccessToast = null;
 		if(mSuccessToast==null){
-			mSuccessToast = Toast.makeText(mAppContext, message,
+			mSuccessToast = Toast.makeText(BaseUtil.context, message,
 					Toast.LENGTH_SHORT);
 			mSuccessToast.setGravity(Gravity.CENTER, 0, -0);
 		}else{
@@ -30,10 +42,13 @@ public class ToastUtil {
 		}
 		mSuccessToast.show();
 	}
-	protected static void showToastFailPic(Application mAppContext,int message){
+	/*protected static void showToastFailPic(int message){
+		if(context==null){
+			throw new NullPointerException("context for BaseUtil  can not  be null");
+		}
 		Toast mSuccessToast=null;
 		if(mSuccessToast==null){
-			mSuccessToast = Toast.makeText(mAppContext, message,
+			mSuccessToast = Toast.makeText(context,message,
 					Toast.LENGTH_SHORT);
 			mSuccessToast.setGravity(Gravity.CENTER, 0, -0);
 		}else{
@@ -41,12 +56,15 @@ public class ToastUtil {
 			mSuccessToast.setDuration(Toast.LENGTH_SHORT);
 		}
 		mSuccessToast.show();
-	}
+	}*/
 
-	protected static void showToastOkPic(Application mAppContext,String message){
+	protected static void showToastOkPic(String message){
+		if(BaseUtil.context ==null){
+			throw new NullPointerException("context for BaseUtil  can not  be null");
+		}
 		Toast mFaileToast=null;
 		if(mFaileToast == null) {
-			mFaileToast = Toast.makeText(mAppContext, message, Toast.LENGTH_SHORT);
+			mFaileToast = Toast.makeText(BaseUtil.context, message, Toast.LENGTH_SHORT);
 			mFaileToast.setGravity(Gravity.CENTER, 0, 0);
 		} else {
 			mFaileToast.setText(message);

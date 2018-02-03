@@ -1,6 +1,5 @@
 package base.util;
 
-import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.annotation.NonNull;
@@ -16,15 +15,14 @@ import java.io.FileOutputStream;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 
-/**
- * Created by HanTuo on 16/7/27.
- */
-public class ObjCacheUtil {
-    private static File DEFAULT_DIR;
+import base.BaseUtil;
 
-    public static void init(Context context) {
-        DEFAULT_DIR = context.getExternalFilesDir("ObjectCache");
-    }
+/**
+ * app缓存类
+ * @author HanTuo
+ * @date 16/7/27
+ */
+public class ObjCacheUtil extends BaseUtil{
 
     public static void saveAsync(final Callback<Boolean> callback, @NonNull final File file, @NonNull final Object obj) {
         new Thread(new Runnable() {

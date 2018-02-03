@@ -1448,12 +1448,20 @@
         "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/androidTest/debug/mipmap_back_left.png.flat",
+        "source": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/bundles/debug/res/mipmap/back_left.png"
+    },
+    {
         "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/androidTest/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/androidTest/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/androidTest/debug/layout_base_webview.xml.flat",
+        "source": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/bundles/debug/res/layout/base_webview.xml"
     },
     {
         "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -1610,5 +1618,9 @@
     {
         "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/androidTest/debug/mipmap_login_close.png.flat",
+        "source": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/bundles/debug/res/mipmap/login_close.png"
     }
 ]

@@ -7,26 +7,30 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Map;
 
+import base.BaseUtil;
+
 /**
- * Created by Administrator on 2016/8/16.
+ *
+ * @author Administrator
+ * @date 2016/8/16
  */
-public class SharePerferenceUtil {
+public class SharePerferenceUtil extends BaseUtil{
     /**
      * 保存在手机里面的文件名
      */
     public static final String FILE_NAME = "share_data";
     public static final String FILE_MESSAGE = "share_message_data";
-
     /**
      * 保存数据的方法，我们需要拿到保存数据的具体类型，然后根据类型调用不同的保存方法
      *
-     * @param context
      * @param key
      * @param object
      */
-    protected static void put(Context context, String key, Object object)
+    protected static void put( String key, Object object)
     {
-
+        if(context==null){
+            throw new NullPointerException("context for BaseUtil  can not  be null");
+        }
         SharedPreferences sp = context.getSharedPreferences(FILE_NAME,
                 Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
@@ -52,9 +56,11 @@ public class SharePerferenceUtil {
         }
         SharedPreferencesCompat.apply(editor);
     }
- protected static void putByMessage(Context context, String key, Object object)
+ protected static void putByMessage(String key, Object object)
     {
-
+        if(context==null){
+            throw new NullPointerException("context for BaseUtil  can not  be null");
+        }
         SharedPreferences sp = context.getSharedPreferences(FILE_MESSAGE,
                 Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
@@ -85,13 +91,15 @@ public class SharePerferenceUtil {
     /**
      * 保存消息的数据
      *
-     * @param context
      * @param key
      * @param defaultObject
      * @return
      */
-    protected static Object getByMessage(Context context, String key, Object defaultObject)
+    protected static Object getByMessage(String key, Object defaultObject)
     {
+        if(context==null){
+            throw new NullPointerException("context for BaseUtil  can not  be null");
+        }
         SharedPreferences sp = context.getSharedPreferences(FILE_MESSAGE,
                 Context.MODE_PRIVATE);
 
@@ -116,13 +124,15 @@ public class SharePerferenceUtil {
     /**
      * 得到保存数据的方法，我们根据默认值得到保存的数据的具体类型，然后调用相对于的方法获取值
      *
-     * @param context
      * @param key
      * @param defaultObject
      * @return
      */
-    protected static Object get(Context context, String key, Object defaultObject)
+    protected static Object get( String key, Object defaultObject)
     {
+        if(context==null){
+            throw new NullPointerException("context for BaseUtil  can not  be null");
+        }
         SharedPreferences sp = context.getSharedPreferences(FILE_NAME,
                 Context.MODE_PRIVATE);
 
@@ -147,11 +157,13 @@ public class SharePerferenceUtil {
 
     /**
      * 移除某个key值已经对应的值
-     * @param context
      * @param key
      */
-    protected static void remove(Context context, String key)
+    protected static void remove( String key)
     {
+        if(context==null){
+            throw new NullPointerException("context for BaseUtil  can not  be null");
+        }
         SharedPreferences sp = context.getSharedPreferences(FILE_NAME,
                 Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
@@ -161,10 +173,12 @@ public class SharePerferenceUtil {
 
     /**
      * 清除所有数据
-     * @param context
      */
-    protected static void clear(Context context)
+    protected static void clear()
     {
+        if(context==null){
+            throw new NullPointerException("context for BaseUtil  can not  be null");
+        }
         SharedPreferences sp = context.getSharedPreferences(FILE_NAME,
                 Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
@@ -173,10 +187,12 @@ public class SharePerferenceUtil {
     }
     /**
      * 清除消息所有数据
-     * @param context
      */
-    protected static void clearMessage(Context context)
+    protected static void clearMessage()
     {
+        if(context==null){
+            throw new NullPointerException("context for BaseUtil  can not  be null");
+        }
         SharedPreferences sp = context.getSharedPreferences(FILE_MESSAGE,
                 Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
@@ -186,29 +202,34 @@ public class SharePerferenceUtil {
 
     /**
      * 查询某个key是否已经存在
-     * @param context
      * @param key
      * @return
      */
-    protected static boolean contains(Context context, String key)
+    protected static boolean contains(String key)
     {
+        if(context==null){
+            throw new NullPointerException("context for BaseUtil  can not  be null");
+        }
         SharedPreferences sp = context.getSharedPreferences(FILE_NAME,
                 Context.MODE_PRIVATE);
         return sp.contains(key);
     }
-
     /**
      * 返回所有的键值对
      *
-     * @param context
      * @return
      */
-    protected static Map<String, ?> getAll(Context context)
+    protected static Map<String, ?> getAll()
     {
+        if(context==null){
+            throw new NullPointerException("context for BaseUtil  can not  be null");
+        }
         SharedPreferences sp = context.getSharedPreferences(FILE_NAME,
                 Context.MODE_PRIVATE);
         return sp.getAll();
     }
+
+
 
     /**
      * 创建一个解决SharedPreferencesCompat.apply方法的一个兼容类

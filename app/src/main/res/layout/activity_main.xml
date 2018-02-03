@@ -16,14 +16,14 @@
     android:gravity="center"
     >
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:background="@color/colorPrimaryDark"
         android:text="窗帘" />
 </LinearLayout>
 
-    <curtain.photograph.com.customview.PolyToPolyView
+    <curtain.photograph.com.ui.customview.PolyToPolyView
         android:id="@+id/iv_photo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

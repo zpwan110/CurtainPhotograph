@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="input_text_bg">#229bed</color>
+    <color name="main_black_text">#000000</color>
 </resources>

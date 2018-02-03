@@ -24,7 +24,6 @@ import base.injectionview.InjectionUtil;
 
 public class BaseFragment extends Fragment {
     protected View rootView;
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
