@@ -3,6 +3,9 @@
     <bool name="default_circle_indicator_centered">true</bool>
     <bool name="default_circle_indicator_snap">false</bool>
     <bool name="default_title_indicator_selected_bold">true</bool>
+    <color name="colorBackground">#f1f0f6</color>
+    <color name="colorDefault">#ffffff</color>
+    <color name="colorText">#9b9b9b</color>
     <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
     <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
     <color name="default_title_indicator_footer_color">#FF6899FF</color>
@@ -20,6 +23,7 @@
     <declare-styleable name="Indicator"><attr format="reference" name="drawable_default"/><attr format="reference" name="drawable_selected"/><attr format="dimension" name="interval"/><attr format="dimension" name="drawable_width"/><attr format="dimension" name="drawable_height"/></declare-styleable>
     <declare-styleable name="NumberPicker"><attr format="color" name="lineColorWheel"/><attr format="color" name="normalTextColor"/><attr format="dimension" name="normalTextSize"/><attr format="color" name="selecredTextColor"/><attr format="dimension" name="selecredTextSize"/><attr format="dimension" name="unitHight"/><attr format="integer" name="itemNumber"/><attr format="dimension" name="maskHight"/><attr format="boolean" name="noEmpty"/><attr format="boolean" name="isEnable"/></declare-styleable>
     <declare-styleable name="Ratio"><attr format="float" name="ratio"/><attr format="boolean" name="baseOnWidth"/><attr format="boolean" name="matchDrawableRatio"/></declare-styleable>
+    <declare-styleable name="Search_View"><attr format="dimension" name="textSizeSearch"/><attr format="color" name="textColorSearch"/><attr format="string" name="textHintSearch"/><attr format="integer" name="searchBlockHeight"/><attr format="color" name="searchBlockColor"/></declare-styleable>
     <declare-styleable name="SimpleGridLayout"><attr format="integer" name="grid_column"/><attr format="dimension" name="grid_row_height"/><attr format="float" name="grid_item_height_width_ratio"/><attr format="dimension" name="grid_divider_width"/></declare-styleable>
     <declare-styleable name="SwipeToLoadLayout"><attr format="boolean" name="refresh_enabled"/><attr format="boolean" name="load_more_enabled"/><attr format="enum" name="swipe_style">
             <enum name="classic" value="0"/>
@@ -52,6 +56,7 @@
     <string name="quit">取消</string>
     <string name="settings">设置</string>
     <string name="string_help_text">当前应用缺少必要权限</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
     <style name="Theme.PageIndicatorDefaults" parent="@android:style/Theme">
         <item name="circlePageIndicatorStyle">@style/Widget.CirclePageIndicator</item>
         <item name="titlePageIndicatorStyle">@style/Widget.TitlePageIndicator</item>

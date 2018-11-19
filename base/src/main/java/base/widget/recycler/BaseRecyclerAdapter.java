@@ -17,6 +17,7 @@ public abstract class BaseRecyclerAdapter<M>  extends  RecyclerView.Adapter<Base
     protected Context mContext;
     protected List<M> mDatas;
     protected ViewOnItemChildClickListener mOnItemChildClickListener;
+    public boolean hasMore = true;
 
     public BaseRecyclerAdapter(Context context) {
         mContext = context;
@@ -105,6 +106,11 @@ public abstract class BaseRecyclerAdapter<M>  extends  RecyclerView.Adapter<Base
      */
     public void addMoreDatas(List<M> datas) {
         if (datas != null) {
+            if(datas.size()==BaseRefreshLayout.SIZE){
+                hasMore = true;
+            }else{
+                hasMore = false;
+            }
             mDatas.addAll(mDatas.size(), datas);
             notifyItemRangeInserted(mDatas.size(), datas.size());
         }
@@ -117,9 +123,12 @@ public abstract class BaseRecyclerAdapter<M>  extends  RecyclerView.Adapter<Base
      */
     public void setDatas(List<M> datas) {
         if (datas != null) {
+            if(datas.size()==BaseRefreshLayout.SIZE){
+                hasMore = true;
+            }else{
+                hasMore = false;
+            }
             mDatas = datas;
-        } else {
-            mDatas.clear();
         }
         notifyDataSetChanged();
     }
@@ -212,5 +221,6 @@ public abstract class BaseRecyclerAdapter<M>  extends  RecyclerView.Adapter<Base
         notifyItemMoved(fromPosition, toPosition);
     }
 
-    public abstract int getItemPos(Object s);
+    public abstract int getItemPos(M s);
+
 }

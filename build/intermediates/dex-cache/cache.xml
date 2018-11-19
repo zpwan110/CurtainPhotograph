@@ -1,0 +1,2105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/10.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bf1d8016063961f8217a6336ce6de25e8d605288">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/7.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="14c1248ceae9eca7286e84de64fc611627648916">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/18.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc569c37c9f9fc3b07f5c56eed8b7efa2b84a515">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/37.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="415dc2494fa7b6991f5006c051009017e1fe1462">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/9.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="830c7c6582b24b93642375edca2f381308020934">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/10.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bf1d8016063961f8217a6336ce6de25e8d605288">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/7.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="14c1248ceae9eca7286e84de64fc611627648916">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/19.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ea098188d497ca4b7dcc118e192c2b0711d3915b">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/25.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4aca07c749afa56a68ccf05e83570f464bbc10b4">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/16.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1b890d73648e7b26cd996374291e1f15b8451fba">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/13.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9e0395ebcb8c8468c5a75d02ed2c3e1595d4107">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/17.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e72d378f65003e8e2f1d3faeb5e2e25ceb0ab21d">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/42.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dbf9ebc0e5efe07db5f57296127409cd202ae265">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/38.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fed181a64c3d7081efca12ea889b66bf8f587d5c">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/16.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1b890d73648e7b26cd996374291e1f15b8451fba">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/26.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e70bb91d0f2a6a210603265f464de009433b2818">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/3.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a13a3a229d394553d3d486d92c10797a27c31b1e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/21.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="65fa39e37116e871cc2262ce601c024ef931a1f6">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/17.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e72d378f65003e8e2f1d3faeb5e2e25ceb0ab21d">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/18.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc569c37c9f9fc3b07f5c56eed8b7efa2b84a515">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/41.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aad1abcaf53411a19b3c538656771ab3797106a1">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/38.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fed181a64c3d7081efca12ea889b66bf8f587d5c">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/24.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7ed5facd6ee33a2f9904b704ce5745fb5d32fb53">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/22.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="02ab3c842f30f7e0907ed422a1279d4426ec4203">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/38.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fed181a64c3d7081efca12ea889b66bf8f587d5c">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/30.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="646a3ccb19c4c4a65234e723024eb156d8c95cc3">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/13.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9e0395ebcb8c8468c5a75d02ed2c3e1595d4107">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/33.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="581f740328e8f80438d9af31a2abee6e64437508">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/39.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2cce1edf674299569566f6961bca5352bd512ea7">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/14.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f3a2e30a051956d01fafb7507ea908a1ed188fb1">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/4.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e95e97c4350d73434da263fb6647b09ad62e2a18">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/16.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1b890d73648e7b26cd996374291e1f15b8451fba">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/3.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a13a3a229d394553d3d486d92c10797a27c31b1e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/21.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="65fa39e37116e871cc2262ce601c024ef931a1f6">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/20.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="acde2a86792a544a469f8b456b81e5ed505e9eb5">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/40.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="445108ef35183b37885d5ca832eaff840c95d757">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/27.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f1eb52ab39a98c946ac6939b258f07962a4ce1b3">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/23.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="397bc64782e015aa6606a732b09bec1dfc0ab91f">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/35.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="912a144e3a3c46d2419e3e55e28ca45198f9d106">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/33.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="581f740328e8f80438d9af31a2abee6e64437508">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/16.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1b890d73648e7b26cd996374291e1f15b8451fba">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/26.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e70bb91d0f2a6a210603265f464de009433b2818">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/8.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c27b494331b5fa98adea5880688ff50a53fa970e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/23.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="397bc64782e015aa6606a732b09bec1dfc0ab91f">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/2.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b4551bc936998cc8d66d39a0a2664ec84276b3c9">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/7.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="14c1248ceae9eca7286e84de64fc611627648916">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/9.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="830c7c6582b24b93642375edca2f381308020934">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/8.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c27b494331b5fa98adea5880688ff50a53fa970e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/37.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="415dc2494fa7b6991f5006c051009017e1fe1462">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/35.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="912a144e3a3c46d2419e3e55e28ca45198f9d106">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/19.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ea098188d497ca4b7dcc118e192c2b0711d3915b">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/24.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7ed5facd6ee33a2f9904b704ce5745fb5d32fb53">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/3.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a13a3a229d394553d3d486d92c10797a27c31b1e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/38.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fed181a64c3d7081efca12ea889b66bf8f587d5c">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/1.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="753299aa89b0a503aa1f7529345b55ddb2659e4e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/23.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="397bc64782e015aa6606a732b09bec1dfc0ab91f">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/6.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bbead261ac5704e0e1e9cf8147ea2275773f2e26">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/33.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="581f740328e8f80438d9af31a2abee6e64437508">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/34.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="92d788b658c80b21f1c838b1003e0af6bd70a1c1">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/17.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e72d378f65003e8e2f1d3faeb5e2e25ceb0ab21d">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/11.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ad511bb19216d2c9ef52cdaab88bdfb8911a6e8e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/3.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a13a3a229d394553d3d486d92c10797a27c31b1e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/32.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b27a7a34791cd90b536255baf816ab3559823ba7">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/28.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d1253897d3456f7fda5fe06800dd9331af8e6792">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/6.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bbead261ac5704e0e1e9cf8147ea2275773f2e26">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/1.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="753299aa89b0a503aa1f7529345b55ddb2659e4e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/35.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="912a144e3a3c46d2419e3e55e28ca45198f9d106">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/2.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b4551bc936998cc8d66d39a0a2664ec84276b3c9">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/6.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bbead261ac5704e0e1e9cf8147ea2275773f2e26">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/30.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="646a3ccb19c4c4a65234e723024eb156d8c95cc3">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/6.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bbead261ac5704e0e1e9cf8147ea2275773f2e26">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/21.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="65fa39e37116e871cc2262ce601c024ef931a1f6">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/9.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="830c7c6582b24b93642375edca2f381308020934">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/32.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b27a7a34791cd90b536255baf816ab3559823ba7">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/42.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dbf9ebc0e5efe07db5f57296127409cd202ae265">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/39.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2cce1edf674299569566f6961bca5352bd512ea7">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/37.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="415dc2494fa7b6991f5006c051009017e1fe1462">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/36.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4ea1b17a296a6f844d29e3445ed730523ac5ff9e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/22.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="02ab3c842f30f7e0907ed422a1279d4426ec4203">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/28.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d1253897d3456f7fda5fe06800dd9331af8e6792">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/25.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4aca07c749afa56a68ccf05e83570f464bbc10b4">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/23.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="397bc64782e015aa6606a732b09bec1dfc0ab91f">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/30.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="646a3ccb19c4c4a65234e723024eb156d8c95cc3">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/20.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="acde2a86792a544a469f8b456b81e5ed505e9eb5">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/26.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e70bb91d0f2a6a210603265f464de009433b2818">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/4.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e95e97c4350d73434da263fb6647b09ad62e2a18">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/24.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7ed5facd6ee33a2f9904b704ce5745fb5d32fb53">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/15.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bddba47e03c54bbc7b72ae5bda2c591359a27cce">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/15.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bddba47e03c54bbc7b72ae5bda2c591359a27cce">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/21.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="65fa39e37116e871cc2262ce601c024ef931a1f6">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/40.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="445108ef35183b37885d5ca832eaff840c95d757">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/1.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="753299aa89b0a503aa1f7529345b55ddb2659e4e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/25.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4aca07c749afa56a68ccf05e83570f464bbc10b4">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/19.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ea098188d497ca4b7dcc118e192c2b0711d3915b">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/14.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f3a2e30a051956d01fafb7507ea908a1ed188fb1">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/38.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fed181a64c3d7081efca12ea889b66bf8f587d5c">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/2.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b4551bc936998cc8d66d39a0a2664ec84276b3c9">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="49c9f34ed10e347b0c3157d9d86646ff89f93005">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/1.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="753299aa89b0a503aa1f7529345b55ddb2659e4e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/28.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d1253897d3456f7fda5fe06800dd9331af8e6792">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/10.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bf1d8016063961f8217a6336ce6de25e8d605288">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/14.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f3a2e30a051956d01fafb7507ea908a1ed188fb1">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/2.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b4551bc936998cc8d66d39a0a2664ec84276b3c9">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/29.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8894eaf3ad90c58cc8a1b32f447656194d559453">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/35.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="912a144e3a3c46d2419e3e55e28ca45198f9d106">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/7.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="14c1248ceae9eca7286e84de64fc611627648916">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/36.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4ea1b17a296a6f844d29e3445ed730523ac5ff9e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/29.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8894eaf3ad90c58cc8a1b32f447656194d559453">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/22.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="02ab3c842f30f7e0907ed422a1279d4426ec4203">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/22.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="02ab3c842f30f7e0907ed422a1279d4426ec4203">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/27.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f1eb52ab39a98c946ac6939b258f07962a4ce1b3">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="49c9f34ed10e347b0c3157d9d86646ff89f93005">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/33.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="581f740328e8f80438d9af31a2abee6e64437508">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/30.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="646a3ccb19c4c4a65234e723024eb156d8c95cc3">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/26.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e70bb91d0f2a6a210603265f464de009433b2818">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/21.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="65fa39e37116e871cc2262ce601c024ef931a1f6">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/17.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e72d378f65003e8e2f1d3faeb5e2e25ceb0ab21d">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/28.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d1253897d3456f7fda5fe06800dd9331af8e6792">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/27.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f1eb52ab39a98c946ac6939b258f07962a4ce1b3">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/16.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1b890d73648e7b26cd996374291e1f15b8451fba">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/12.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc9b40fe54fdc1b34d7b2b4cfb69d2713631aae2">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/24.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7ed5facd6ee33a2f9904b704ce5745fb5d32fb53">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/12.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc9b40fe54fdc1b34d7b2b4cfb69d2713631aae2">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/10.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bf1d8016063961f8217a6336ce6de25e8d605288">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/15.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bddba47e03c54bbc7b72ae5bda2c591359a27cce">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/34.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="92d788b658c80b21f1c838b1003e0af6bd70a1c1">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/8.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c27b494331b5fa98adea5880688ff50a53fa970e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/41.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aad1abcaf53411a19b3c538656771ab3797106a1">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/25.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4aca07c749afa56a68ccf05e83570f464bbc10b4">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/32.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b27a7a34791cd90b536255baf816ab3559823ba7">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/19.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ea098188d497ca4b7dcc118e192c2b0711d3915b">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/13.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9e0395ebcb8c8468c5a75d02ed2c3e1595d4107">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/2.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b4551bc936998cc8d66d39a0a2664ec84276b3c9">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/12.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc9b40fe54fdc1b34d7b2b4cfb69d2713631aae2">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/40.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="445108ef35183b37885d5ca832eaff840c95d757">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/32.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b27a7a34791cd90b536255baf816ab3559823ba7">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/12.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc9b40fe54fdc1b34d7b2b4cfb69d2713631aae2">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/31.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cd1ac7bb8c5b8308671b34328fe141e7b3973d8d">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/34.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="92d788b658c80b21f1c838b1003e0af6bd70a1c1">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/27.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f1eb52ab39a98c946ac6939b258f07962a4ce1b3">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/36.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4ea1b17a296a6f844d29e3445ed730523ac5ff9e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/11.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ad511bb19216d2c9ef52cdaab88bdfb8911a6e8e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/41.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aad1abcaf53411a19b3c538656771ab3797106a1">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/11.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ad511bb19216d2c9ef52cdaab88bdfb8911a6e8e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/8.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c27b494331b5fa98adea5880688ff50a53fa970e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="49c9f34ed10e347b0c3157d9d86646ff89f93005">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/13.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9e0395ebcb8c8468c5a75d02ed2c3e1595d4107">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/37.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="415dc2494fa7b6991f5006c051009017e1fe1462">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/22.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="02ab3c842f30f7e0907ed422a1279d4426ec4203">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/1.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="753299aa89b0a503aa1f7529345b55ddb2659e4e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/42.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dbf9ebc0e5efe07db5f57296127409cd202ae265">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/27.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f1eb52ab39a98c946ac6939b258f07962a4ce1b3">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/20.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="acde2a86792a544a469f8b456b81e5ed505e9eb5">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/15.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bddba47e03c54bbc7b72ae5bda2c591359a27cce">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/18.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc569c37c9f9fc3b07f5c56eed8b7efa2b84a515">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/31.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cd1ac7bb8c5b8308671b34328fe141e7b3973d8d">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="49c9f34ed10e347b0c3157d9d86646ff89f93005">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/20.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="acde2a86792a544a469f8b456b81e5ed505e9eb5">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/8.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c27b494331b5fa98adea5880688ff50a53fa970e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/18.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc569c37c9f9fc3b07f5c56eed8b7efa2b84a515">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/31.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cd1ac7bb8c5b8308671b34328fe141e7b3973d8d">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/25.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4aca07c749afa56a68ccf05e83570f464bbc10b4">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/29.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8894eaf3ad90c58cc8a1b32f447656194d559453">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/9.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="830c7c6582b24b93642375edca2f381308020934">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/10.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bf1d8016063961f8217a6336ce6de25e8d605288">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/18.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc569c37c9f9fc3b07f5c56eed8b7efa2b84a515">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/32.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b27a7a34791cd90b536255baf816ab3559823ba7">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/34.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="92d788b658c80b21f1c838b1003e0af6bd70a1c1">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/9.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="830c7c6582b24b93642375edca2f381308020934">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/24.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7ed5facd6ee33a2f9904b704ce5745fb5d32fb53">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/39.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2cce1edf674299569566f6961bca5352bd512ea7">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/29.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8894eaf3ad90c58cc8a1b32f447656194d559453">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/12.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc9b40fe54fdc1b34d7b2b4cfb69d2713631aae2">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/37.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="415dc2494fa7b6991f5006c051009017e1fe1462">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/23.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="397bc64782e015aa6606a732b09bec1dfc0ab91f">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/40.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="445108ef35183b37885d5ca832eaff840c95d757">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/3.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a13a3a229d394553d3d486d92c10797a27c31b1e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/11.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ad511bb19216d2c9ef52cdaab88bdfb8911a6e8e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/17.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e72d378f65003e8e2f1d3faeb5e2e25ceb0ab21d">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/19.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ea098188d497ca4b7dcc118e192c2b0711d3915b">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/40.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="445108ef35183b37885d5ca832eaff840c95d757">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/13.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9e0395ebcb8c8468c5a75d02ed2c3e1595d4107">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/39.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2cce1edf674299569566f6961bca5352bd512ea7">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/6.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bbead261ac5704e0e1e9cf8147ea2275773f2e26">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="49c9f34ed10e347b0c3157d9d86646ff89f93005">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/42.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dbf9ebc0e5efe07db5f57296127409cd202ae265">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/31.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cd1ac7bb8c5b8308671b34328fe141e7b3973d8d">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/4.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e95e97c4350d73434da263fb6647b09ad62e2a18">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/28.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d1253897d3456f7fda5fe06800dd9331af8e6792">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/39.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2cce1edf674299569566f6961bca5352bd512ea7">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/7.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="14c1248ceae9eca7286e84de64fc611627648916">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/30.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="646a3ccb19c4c4a65234e723024eb156d8c95cc3">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/34.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="92d788b658c80b21f1c838b1003e0af6bd70a1c1">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/29.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8894eaf3ad90c58cc8a1b32f447656194d559453">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/36.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4ea1b17a296a6f844d29e3445ed730523ac5ff9e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/41.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aad1abcaf53411a19b3c538656771ab3797106a1">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/36.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4ea1b17a296a6f844d29e3445ed730523ac5ff9e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_baidu_market/release/4.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e95e97c4350d73434da263fb6647b09ad62e2a18">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_baidu_market/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/31.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cd1ac7bb8c5b8308671b34328fe141e7b3973d8d">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/42.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dbf9ebc0e5efe07db5f57296127409cd202ae265">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/26.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e70bb91d0f2a6a210603265f464de009433b2818">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/4.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e95e97c4350d73434da263fb6647b09ad62e2a18">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_oppo_market/release/14.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f3a2e30a051956d01fafb7507ea908a1ed188fb1">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_oppo_market/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/14.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f3a2e30a051956d01fafb7507ea908a1ed188fb1">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/41.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aad1abcaf53411a19b3c538656771ab3797106a1">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/20.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="acde2a86792a544a469f8b456b81e5ed505e9eb5">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_huawei_market/release/35.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="912a144e3a3c46d2419e3e55e28ca45198f9d106">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_huawei_market/release/35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_yyb_market/release/15.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bddba47e03c54bbc7b72ae5bda2c591359a27cce">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_yyb_market/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/33.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="581f740328e8f80438d9af31a2abee6e64437508">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/desugar/app_H5_market/release/11.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ad511bb19216d2c9ef52cdaab88bdfb8911a6e8e">
+        <dex dex="/Users/zhangpeng/AndroidStudioProjects/CurtainPhotograph/app/build/intermediates/transforms/preDex/app_H5_market/release/11.jar" />
+    </item>
+
+</items>

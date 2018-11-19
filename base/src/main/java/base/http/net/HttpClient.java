@@ -35,10 +35,12 @@ public class HttpClient extends HttpHelper {
             builder.addInterceptor(inteceptor);
             }
         }
-        if (BuildConfig.DEBUG) {
-            builder.addNetworkInterceptor(new LogInterceptor());
-        }
         sOkHttpClient = builder.build();
+    }
+    public static OkHttpClient initOkHttpClient() {
+        initDataConverter();
+        OkHttpClient.Builder builder =  initBuild();
+        return builder.build();
     }
 
     private static OkHttpClient.Builder initBuild() {
@@ -46,7 +48,6 @@ public class HttpClient extends HttpHelper {
         builder.connectTimeout(15, TimeUnit.SECONDS);
         builder.readTimeout(15, TimeUnit.SECONDS);
         builder.writeTimeout(15, TimeUnit.SECONDS);
-        builder.cookieJar(new CrossDomainTokenCookie());
         if (BuildConfig.DEBUG) {
             builder.addNetworkInterceptor(new LogInterceptor());
         }

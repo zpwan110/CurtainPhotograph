@@ -11,12 +11,14 @@ import curtain.photograph.com.common.config.AppConfig;
 
 public class AppSharePerference extends SharePerferenceUtil {
     private static final String USER_TOKEN = "user_token";
+    private static final String REFRESH_TOKEN = "refresh_token";
     private static final String USER_INFO = "user_info";
     private static final String USER_ID = "user_id";
     private static final String LAST_ACCOUNT = "last_account";
     private static final String LAUNCH_COUNT = "LAUNCH_COUNT";
     private static final String LAUNCH_VERSION = "LAUNCH_VERSION";
     private static final String IS_APP_GUIDE_SHOWED = "IS_APP_GUIDE_SHOWED";
+    private static final String DEVICE_ID = "device_id";
     /**
      * 存储用户信息
      */
@@ -39,6 +41,9 @@ public class AppSharePerference extends SharePerferenceUtil {
     public static void saveUserToken(String userToken) {
             put(USER_TOKEN,userToken);
     }
+    public static void saveRefreshToken(String refreshToken) {
+            put(REFRESH_TOKEN,refreshToken);
+    }
 
     /**
      * 获取token
@@ -47,12 +52,19 @@ public class AppSharePerference extends SharePerferenceUtil {
     public static String getUserToken() {
             return String.valueOf(get(USER_TOKEN,""));
     }
+    public static String getRefreshToken() {
+            return String.valueOf(get(REFRESH_TOKEN,""));
+    }
     /**
      * 清除UserToken
      * @return
      */
     public static void deleteUserToken() {
-       AppSharePerference.removeAppShare(USER_TOKEN);
+       removeAppShare(USER_TOKEN);
+       removeAppShare(REFRESH_TOKEN);
+    }
+    public static void deleteRefreshToken() {
+       AppSharePerference.removeAppShare(REFRESH_TOKEN);
     }
     public static void removeAppShare(String key){
            remove(key);
@@ -123,4 +135,10 @@ public class AppSharePerference extends SharePerferenceUtil {
             put(LAUNCH_COUNT+versionCode,0);
     }
 
+    public static void saveDeviceId(String deviceId) {
+        put(DEVICE_ID,deviceId);
+    }
+    public static String getDeviceId() {
+        return String.valueOf(get(DEVICE_ID,""));
+    }
 }

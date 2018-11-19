@@ -21,6 +21,7 @@ public class BaseRecyclerViewHolder extends RecyclerView.ViewHolder implements V
         itemView.setOnClickListener(this);
         mViewHolderHelper = new ViewHolderHelper(this.itemView);
         mViewHolderHelper.setRecyclerViewHolder(this);
+        mViewHolderHelper.setOnItemChildClickListener(onRVItemClickListener);
         this.itemType = itemType;
     }
 
@@ -31,6 +32,7 @@ public class BaseRecyclerViewHolder extends RecyclerView.ViewHolder implements V
         itemView.setOnClickListener(this);
         mViewHolderHelper = new ViewHolderHelper(this.itemView);
         mViewHolderHelper.setRecyclerViewHolder(this);
+        mViewHolderHelper.setOnItemChildClickListener(onRVItemClickListener);
     }
 
     public ViewHolderHelper getViewHolderHelper() {

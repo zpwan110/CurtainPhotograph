@@ -8,4 +8,8 @@
     <dimen name="font_small">13sp</dimen>
     <dimen name="home_item_height">45dp</dimen>
     <dimen name="home_divider_width">45dp</dimen>
+    <dimen name="login_input_height">46dp</dimen>
+    <dimen name="login_btn_height">46dp</dimen>
+    <dimen name="font_size_17">17sp</dimen>
+    <dimen name="grid_expected_size">120dp</dimen>
 </resources>

@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.os.Build;
+import android.util.DisplayMetrics;
 import android.util.TypedValue;
 
 import java.lang.reflect.Method;
@@ -12,10 +13,22 @@ import base.BaseUtil;
 
 //常用单位转换的辅助类
 public class DensityUtils extends BaseUtil{
+    public static int getDensityWidth(){
+        Resources resources = context.getResources();
+        DisplayMetrics dm = resources.getDisplayMetrics();
+        float density = dm.density;
+        return dm.widthPixels;
+    }
+    public static int getDensityHeight(){
+        Resources resources = context.getResources();
+        DisplayMetrics dm = resources.getDisplayMetrics();
+        float density = dm.density;
+        return dm.heightPixels;
+    }
     /**
      * 根据手机的分辨率从 dip 的单位 转成为 px(像素)
      */
-    public static int dip2px(float dpValue) {
+    public static int dip2px( float dpValue) {
         if(context==null){
             throw new NullPointerException("context for BaseUtil  can not  be null");
         }
@@ -26,7 +39,7 @@ public class DensityUtils extends BaseUtil{
     /**
      * 根据手机的分辨率从 px(像素) 的单位 转成为 dp
      */
-    public static int px2dip( float pxValue) {
+    public static int px2dip(float pxValue) {
         if(context==null){
             throw new NullPointerException("context for BaseUtil  can not  be null");
         }
@@ -48,12 +61,11 @@ public class DensityUtils extends BaseUtil{
     /**
      * 将sp值转换为px值，保证文字大小不变
      */
-    public static int sp2px(float spValue) {
+    public static int sp2px(int sp){
         if(context==null){
             throw new NullPointerException("context for BaseUtil  can not  be null");
         }
-        final float fontScale = context.getResources().getDisplayMetrics().scaledDensity;
-        return (int) (spValue * fontScale + 0.5f);
+        return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, sp,context.getResources().getDisplayMetrics());
     }
     protected int dp2px(Resources res, int dp){
         return  (int) TypedValue.applyDimension(

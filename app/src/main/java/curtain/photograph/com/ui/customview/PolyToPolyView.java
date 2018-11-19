@@ -2,15 +2,32 @@ package curtain.photograph.com.ui.customview;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-import android.graphics.Matrix;
+import android.graphics.Color;
+import android.graphics.ColorMatrix;
+import android.graphics.ColorMatrixColorFilter;
 import android.graphics.Paint;
+import android.graphics.Rect;
+import android.net.Uri;
+import android.provider.MediaStore;
 import android.util.AttributeSet;
+import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 
-import curtain.photograph.com.R;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Locale;
+
+import base.BaseActivity;
+import curtain.photograph.com.ui.activity.ShareActivity;
+import curtain.photograph.com.utils.SpatialRelationUtil;
 
 
 /**
@@ -21,33 +38,41 @@ import curtain.photograph.com.R;
  * @Email: 702250823@qq.com
  * @version: V1.0
  */
-public class PolyToPolyView extends View {
+public class PolyToPolyView extends View{
     private static final String TAG = "SetPolyToPoly";
 
-    private int testPoint = 0;
-    private int framPadding = 35;    // 边框内距离180px
+    private Bitmap bgBitmap;
+    private Rect bgSrcRect;
+    private Rect bgDesRect;
+    DoubleClick doubleClick;
+    public int centerX;
+    public int centerY;
+    private List<CurtuaiPoint> bodyList = new ArrayList<>();
+    private List<CurtuaiPoint> headList = new ArrayList<>();
+    public CurtuaiPoint currentPoint;
+    private boolean single =true;
+    private int COUNT_MAX =8;
+//    private List<String> curtaiUrl = new ArrayList<>();
 
-    private Bitmap mBitmap;             // 要绘制的图片
-    private Matrix mPolyMatrix;         // 测试setPolyToPoly用的Matrix
-    //图片的中心点坐标
-    private int centerX, centerY,canvasX,canvasY;
+    public void setFullScreem(boolean fullScreem) {
+        isFullScreem = fullScreem;
+    }
 
-    private float[] src = new float[8];
-    private float[] dst = new float[8];
-    private float[] center = new float[2];
-    private float[] delete = new float[2];
-    private float[] translate = new float[2];
-    private float[] temp ;
-    float scale = 2;
+    public boolean isFullScreem =false;
 
-    private Paint pointPaint,pointLine;
-    float[] pointXY = new float[8];
-    private float triggerRadius = 280;
-    private boolean isMove =false;
-    private boolean isTranslate =false;
-    private boolean isShow =true;
-    private boolean isDelete = false;
-    private CanvasWrapper mCanvasWrapper;
+    public void setBodyOrHead(boolean bodyUp) {
+        isBodyOrHead = bodyUp;
+    }
+
+    private boolean isBodyOrHead = true;
+
+    public DoubleClick getDoubleClick() {
+        return doubleClick;
+    }
+
+    public void setDoubleClick(DoubleClick doubleClick) {
+        this.doubleClick = doubleClick;
+    }
 
     public PolyToPolyView(Context context) {
         this(context, null);
@@ -59,185 +84,51 @@ public class PolyToPolyView extends View {
 
     public PolyToPolyView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        initBitmapAndMatrix();
+        init();
     }
 
-    private void initBitmapAndMatrix() {
-        mBitmap = BitmapFactory.decodeResource(getResources(),
-                R.drawable.small_curtain);
-        temp = new float[]{0-framPadding, 0-framPadding,                                    // 左上
-                mBitmap.getWidth()+framPadding, 0-framPadding,                     // 右上
-                mBitmap.getWidth()+framPadding, mBitmap.getHeight()+framPadding,  // 右下
-                0-framPadding, mBitmap.getHeight()+framPadding    //左下
-        };
-        src = temp.clone();
-        dst = temp.clone();
-        pointPaint = new Paint();
-        pointLine = new Paint();
-        pointPaint.setAntiAlias(true);
-        pointLine.setAntiAlias(true);
-        pointPaint.setStrokeWidth(50);
-        pointLine.setStrokeWidth(8);
-        pointPaint.setColor(0xffd19165);
-        pointLine.setColor(0xffd19165);
-        pointPaint.setStrokeCap(Paint.Cap.ROUND);
-        mPolyMatrix = new Matrix();
-        mPolyMatrix.setPolyToPoly(src, 0, dst, 0, 4);
+    private void init() {
         setLayerType(View.LAYER_TYPE_SOFTWARE, null);
-        mCanvasWrapper = new CanvasWrapper();
     }
+
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
+        bgSrcRect = new Rect(0, 0, w, h);
+        bgDesRect = new Rect(0, 0, w, h);
         this.centerX = w/2;
         this.centerY =h/2;
     }
-    int currentPoint=-1 ;
 
     @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
         super.onLayout(changed, left, top, right, bottom);
-        canvasX = Math.abs(centerX-mBitmap.getWidth()/2);
-        canvasY = Math.abs(centerY-mBitmap.getHeight()/2);
-        src = temp.clone();
-        dst = temp.clone();
-        translate[0] = canvasX;
-        translate[1] = canvasY;
-        delete[0] = centerX;
-        delete[1] = canvasY-framPadding*2;
-        center[0] = centerX;
-        center[1] = centerY;
-        setTestPoint(4);
-
-}
-    public void resetPolyMatrix(int pointCount,float moveX,float moveY) {
-        mPolyMatrix.reset();
-        mPolyMatrix.setPolyToPoly(src, 0, dst, 0, pointCount);
-        mPolyMatrix.postTranslate(translate[0],translate[1]);
-        mPolyMatrix.mapPoints(pointXY, src);
-        switch (currentPoint){
-            case -1:
-                break;
-            default:
-
-                break;
-        }
-        if(isTranslate){
-            center[0] += moveX;
-            center[1] += moveY;
-            delete[0] += moveX;
-            delete[1] += moveY;
-        }else if(currentPoint!=-1){
-            switch (currentPoint){
-                case 0:
-                    center[0] += moveX/2;
-                    center[1] += moveY/2;
-                    delete[0] += moveX/2;
-                    delete[1] += moveY/2;
-                    dst[currentPoint] +=moveX;
-                    dst[currentPoint + 1] +=moveY;
-                    break;
-                case 2:
-                    center[0] += moveX/2;
-                    delete[0] += moveX/2;
-                    delete[1] += moveY/2;
-                    dst[currentPoint] +=moveX;
-                    dst[currentPoint + 1] +=moveY;
-                    break;
-                 case 4:
-                    dst[currentPoint] +=moveX;
-                    dst[currentPoint + 1] +=moveY;
-                    break;
-                case 6:
-                    center[1] += moveY/2;
-                    dst[currentPoint] +=moveX;
-                    dst[currentPoint + 1] +=moveY;
-                    break;
-            }
-
-        }
-        invalidate();
     }
-    float locationX ,locationY ;
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-
-        switch (event.getAction()) {
-            case MotionEvent.ACTION_DOWN:
-                locationX = event.getX();
-                locationY = event.getY();
-                currentPoint =-1;
-                isMove = false;
-                isTranslate =false;
-                if(Math.abs(locationX - center[0]) <= 100 && Math.abs(locationY - center[1]) <= 100){
-                    isTranslate =true;
-                    break;
-                }
-                // 根据触控位置改变dst
-                for (int i = 0; i < testPoint * 2; i += 2) {
-                    float shortX = locationX - pointXY[i];
-                    float shortY = locationY - pointXY[i+1];
-                    if (Math.abs(shortX) <= triggerRadius && Math.abs(shortY) <= triggerRadius&&!isMove) {
-                        currentPoint = i;
-                        isMove =true;
-                        isShow = true;
-                        break;
+        gestureDetector.onTouchEvent(event);
+        if(currentPoint!=null){
+            if(event.getAction()== MotionEvent.ACTION_DOWN){
+                SpatialRelationUtil.Point point =new SpatialRelationUtil.Point(event.getX(),event.getY());
+                if(isBodyOrHead){
+                    for (CurtuaiPoint curtain:bodyList) {
+                        if(SpatialRelationUtil.isPolygonContainsPoint(curtain.pointList,point)){
+                            currentPoint = curtain;
+                            setFullScreem(false);
+                            break;
+                        }
                     }
-                    /*switch (i){
-                        case 0:
-                            if (shortX >= 0 && shortX<=triggerRadius&&shortY>=0&&shortY<=triggerRadius&&!isMove) {
-                                currentPoint = 0;
-                                isMove =true;
-                                isShow = true;
-                                break;
-                            }
-                        case 2:
-                            if (shortX <= 0 && Math.abs(shortX)<=triggerRadius&&shortY>=0&&shortY<=triggerRadius&&!isMove) {
-                                currentPoint = 2;
-                                isMove =true;
-                                isShow = true;
-                                break;
-                            }
-                        case 4:
-                            if (shortX <= 0 && Math.abs(shortX)<=triggerRadius&&shortY<=0&&Math.abs(shortY)<=triggerRadius&&!isMove) {
-                                currentPoint = 4;
-                                isMove =true;
-                                isShow = true;
-                                break;
-                            }
+                }else{
+                    for (CurtuaiPoint curtain:headList) {
+                        if(SpatialRelationUtil.isPolygonContainsPoint(curtain.pointList,point)){
+                            currentPoint = curtain;
+                            setFullScreem(false);
                             break;
-                        case 6:
-                            if (shortX >= 0 && shortX<=triggerRadius&&shortY<=0&&Math.abs(shortY)<=triggerRadius&&!isMove) {
-                                currentPoint = 6;
-                                isMove =true;
-                                isShow = true;
-                                break;
-                            }
-                            break;
-                    }*/
+                        }
+                    }
                 }
-                break;
-            case MotionEvent.ACTION_MOVE:
-                float tempX = event.getX();
-                float tempY = event.getY();
-                if(isTranslate){
-                    translate[0] +=(tempX-locationX);
-                    translate[1] +=(tempY-locationY);
-                }
-                resetPolyMatrix(4,(tempX-locationX),(tempY-locationY));
-                locationX = event.getX();
-                locationY = event.getY();
-                break;
-            case MotionEvent.ACTION_UP:
-                float shortX = locationX - delete[0];
-                float shortY = locationY - delete[1];
-                if(Math.abs(shortX) <= 50 && Math.abs(shortY) <= 50&&isShow){
-                    isDelete = true;
-                    invalidate();
-                }
-//                locationX = event.getX();
-//                locationY = event.getY();
-                break;
+            }
+            currentPoint.onTouch(event);
         }
         return true;
     }
@@ -245,40 +136,175 @@ public class PolyToPolyView extends View {
 
     @Override
     protected void dispatchDraw(Canvas canvas) {
-        super.dispatchDraw(canvas);
-        // 根据Matrix绘制一个变换后的图片
-        if(!isDelete){
-            mCanvasWrapper.setCanvasSize(canvas.getWidth(), canvas.getHeight());
-            mCanvasWrapper.drawBitmap(mBitmap, mPolyMatrix, pointPaint);
-            mCanvasWrapper.draw(canvas);
-//            canvas.drawBitmap(mBitmap, mPolyMatrix, null);
-            if(isShow){
-                canvas.drawPoint(delete[0], delete[1], pointPaint);
-                canvas.drawPoint(center[0], center[1], pointPaint);
-                // 绘制触控点
-                for (int i = 0; i < dst.length; i += 2) {
-                    canvas.drawPoint(pointXY[i], pointXY[i + 1], pointPaint);
-                    if(i==6){
-                        canvas.drawLine(pointXY[i],pointXY[i + 1],pointXY[0],pointXY[1],pointLine);
-                    }else{
-                        canvas.drawLine(pointXY[i],pointXY[i + 1],pointXY[i + 2],pointXY[i + 3],pointLine);
-                    }
-                }
-            }
+        for (CurtuaiPoint curtain:headList) {
+            super.dispatchDraw(curtain.dispathDraw(canvas,true));
         }
-        super.dispatchDraw(mCanvasWrapper.getCanvas());
+        for (CurtuaiPoint curtain:bodyList) {
+            super.dispatchDraw(curtain.dispathDraw(canvas,true));
+        }
+        if(currentPoint!=null){
+            super.dispatchDraw(currentPoint.dispathDraw(canvas,isFullScreem));
+        }
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
+        if(bgBitmap!=null){
+            canvas.drawBitmap(bgBitmap, null,bgDesRect, null);
+        }
+    }
+    public void setBgBitmap(Uri uri){
+        try {
+            bgBitmap = MediaStore.Images.Media.getBitmap(getContext().getContentResolver(),uri);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    public void saveViewImage() {
+        setFullScreem(true);
+        invalidate();
+        String timeStamp =
+                new SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(new Date());
+        String imageFileName = String.format("JPEG_%s.jpg", timeStamp);
+        File storageDir  = getContext().getExternalCacheDir();
+        File tempFile = new File(storageDir, imageFileName);
+        try {
+            this.setDrawingCacheEnabled(true);
+            this.setDrawingCacheQuality(View.DRAWING_CACHE_QUALITY_HIGH);
+            this.setDrawingCacheBackgroundColor(Color.WHITE);
+            int w = getMeasuredWidth();
+            int h = getMeasuredHeight();
+            Bitmap bmp = Bitmap.createBitmap(w, h, Bitmap.Config.ARGB_8888);
+            Canvas c = new Canvas(bmp);
+            c.drawColor(Color.WHITE);
+            /** 如果不设置canvas画布为白色,则生成透明 */
+//            this.layout(0, 0, w, h);
+            this.draw(c);
+            BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(tempFile));
+            bmp.compress(Bitmap.CompressFormat.JPEG, 80, bos);
+            bos.flush();
+            bos.close();
+            ((BaseActivity)getContext()).toActivity(ShareActivity.newIntent(tempFile.getAbsolutePath()));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
+    GestureDetector gestureDetector = new GestureDetector(getContext(), new GestureDetector.SimpleOnGestureListener() {
+        /**
+         * 双击发生时的通知
+         * @param e
+         * @return
+         */
+        @Override
+        public boolean onDoubleTap(MotionEvent e) {//双击事件
+                if(getDoubleClick()!=null){
+                    getDoubleClick().onDoubleClick();
+                }
+            return super.onDoubleTap(e);
+        }
+    });
 
+    /**
+     *
+     * @param light 亮度度
+     * @param contrast 对比度
+     * @param gray 灰度
+     */
+    public void changeBitmap(float light, float contrast, float gray) {
+        if(currentPoint==null||currentPoint.mBitmap==null){
+            return;
+        }
+        Bitmap bmp = currentPoint.mCopyBitmap.copy(Bitmap.Config.ARGB_8888, true);
+        Canvas canvas = new Canvas(bmp);
+        Paint paint = new Paint();
+        ColorMatrix contrastMatrix = new ColorMatrix();
+        ColorMatrix lightMatrix = new ColorMatrix();
+        ColorMatrix grayMatrix=new ColorMatrix();
+        if(contrast<0.3){
+            contrast =0.3f;
+        }else if(contrast>1.5){
+            contrast =1.5f;
+        }
+        if(light<0.3){
+            light =0.3f;
+        }else if(light>1.5){
+            light =1.5f;
+        }
+        contrastMatrix.set(new float[] {
+                contrast, 0, 0, 0, 0,
+                0, contrast, 0, 0, 0,
+                0, 0, contrast, 0, 0,
+                0, 0, 0, 1, 0
+        });
+        grayMatrix.setSaturation(gray);
+        lightMatrix.setScale(light, light, light, 1);
+        ColorMatrix colorMatrix = new ColorMatrix();
+        colorMatrix.postConcat(lightMatrix);
+        colorMatrix.postConcat(contrastMatrix);
+        colorMatrix.postConcat(grayMatrix);
+        ColorMatrixColorFilter colorFilter = new ColorMatrixColorFilter(colorMatrix);
+        paint.setColorFilter(colorFilter);
+        canvas.drawBitmap(bmp, 0, 0, paint);
+        currentPoint.setBitmap(bmp);
+        invalidate();
+    }
+    public void addHead(CurtuaiPoint curtuaiPoint) {
+        if(single){
+            headList.clear();
+            headList.add(curtuaiPoint);
+        }else{
+                headList.add(curtuaiPoint);
+        }
+        currentPoint = curtuaiPoint;
 
     }
 
-    public void setTestPoint(int testPoint) {
-        this.testPoint = testPoint > 4 || testPoint < 0 ? 4 : testPoint;
-        dst = src.clone();
-        resetPolyMatrix(testPoint,0,0);
+    public void addBody(CurtuaiPoint curtuaiPoint) {
+        if(single){
+            bodyList.clear();
+            bodyList.add(curtuaiPoint);
+        }else{
+                bodyList.add(curtuaiPoint);
+        }
+        currentPoint = curtuaiPoint;
+    }
+
+    public void setSingle(boolean single) {
+        this.single = single;
+        bodyList.clear();
+        headList.clear();
+        currentPoint =null;
+        invalidate();
+    }
+
+    public void delete() {
+        if(isBodyOrHead){
+            for (int i = 0; i < bodyList.size(); i++) {
+                if(bodyList.get(i).isDelete){
+                    headList.remove(i);
+                    break;
+                }
+            }
+        }else{
+            for (int i = 0; i < headList.size(); i++) {
+                if(headList.get(i).isDelete){
+                    headList.remove(i);
+                    break;
+                }
+            }
+        }
+    }
+
+    public void fullScreem() {
+        if(isFullScreem){
+            isFullScreem = false;
+        }else{
+            isFullScreem = true;
+        }
+    }
+
+    public interface DoubleClick{
+        void onDoubleClick();
     }
 }

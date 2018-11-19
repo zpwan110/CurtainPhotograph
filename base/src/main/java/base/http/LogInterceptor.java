@@ -42,7 +42,8 @@ public class LogInterceptor implements Interceptor {
 
     @Override
     public Response intercept(Chain chain) throws IOException {
-        StringBuffer stringBuffer = new StringBuffer();
+        StringBuffer requestBuffer = new StringBuffer();
+        StringBuffer responseBuffer = new StringBuffer();
 
         Request request = chain.request();
         RequestBody requestBody = request.body();
@@ -53,17 +54,17 @@ public class LogInterceptor implements Interceptor {
         Protocol protocol = connection != null ? connection.protocol() : Protocol.HTTP_1_1;
         String requestStartMessage =
                 "Request: " + protocol(protocol) + ' ' + request.method() + ' ' + request.url();
-        stringBuffer.append(requestStartMessage + "\n");
+        requestBuffer.append(requestStartMessage + "\n");
 
-        stringBuffer.append("RequestHeaders: ");
+        requestBuffer.append("RequestHeaders: ");
         if (hasRequestBody) {
             // Request body headers are only present when installed as a network interceptor. Force
             // them to be included (when available) so there values are known.
             if (requestBody.contentType() != null) {
-                stringBuffer.append("Content-Type:" + requestBody.contentType());
+                requestBuffer.append("Content-Type:" + requestBody.contentType());
             }
             if (requestBody.contentLength() != -1) {
-                stringBuffer.append(" Content-Length:" + requestBody.contentLength());
+                requestBuffer.append(" Content-Length:" + requestBody.contentLength());
             }
         }
 
@@ -72,20 +73,22 @@ public class LogInterceptor implements Interceptor {
             String name = headers.name(i);
             // Skip headers from the request body as they are explicitly logged above.
             if (!"Content-Type".equalsIgnoreCase(name) && !"Content-Length".equalsIgnoreCase(name)) {
-                stringBuffer.append(" " + name + ":" + headers.value(i));
+                requestBuffer.append(" " + name + ":" + headers.value(i));
             }
         }
         if (hasRequestBody) {
             Buffer buffer = new Buffer();
             requestBody.writeTo(buffer);
-
             Charset charset = UTF8;
             MediaType contentType = requestBody.contentType();
             if (contentType != null) {
                 charset = contentType.charset(UTF8);
             }
 
-            stringBuffer.append("\nRequestBody:" + buffer.readString(charset));
+            requestBuffer.append("\nRequestBody:" + buffer.readString(charset));
+        }
+        if(BuildConfig.DEBUG){
+            logger.log(requestBuffer.toString());
         }
 
         long startNs = System.nanoTime();
@@ -95,16 +98,16 @@ public class LogInterceptor implements Interceptor {
         ResponseBody responseBody = response.body();
         long contentLength = responseBody.contentLength();
         String bodySize = contentLength != -1 ? contentLength + "-byte" : "unknown-length";
-        stringBuffer.append("\nResponse: " + response.code() + ' ' + response.message() + ' ' + " (" + tookMs + "ms");
+        responseBuffer.append("\nResponse: " + response.code() + ' ' + response.message() + ' ' + " (" + tookMs + "ms");
 
-        stringBuffer.append("\nResponseHeaders: ");
+        responseBuffer.append("\nResponseHeaders: ");
         headers = response.headers();
         for (int i = 0, count = headers.size(); i < count; i++) {
-            stringBuffer.append(headers.name(i) + ": " + headers.value(i));
+            responseBuffer.append(headers.name(i) + ": " + headers.value(i));
         }
 
         if (responseBody.contentLength() != 0) {
-            stringBuffer.append("\nResponseBody: ");
+            responseBuffer.append("\nResponseBody: ");
             BufferedSource source = responseBody.source();
             source.request(Long.MAX_VALUE); // Buffer the entire body.
             Buffer buffer = source.buffer();
@@ -116,12 +119,12 @@ public class LogInterceptor implements Interceptor {
             }
 
             if (contentLength != 0) {
-                stringBuffer.append("");
-                stringBuffer.append(buffer.clone().readString(charset));
+                responseBuffer.append("");
+                responseBuffer.append(buffer.clone().readString(charset));
             }
         }
         if(BuildConfig.DEBUG){
-            logger.log(stringBuffer.toString());
+            logger.log(responseBuffer.toString());
         }
         return response.newBuilder()
                 .body(ResponseBody.create(responseBody.contentType(), responseBody.string()))
@@ -135,7 +138,17 @@ public class LogInterceptor implements Interceptor {
         Logger DEFAULT = new Logger() {
             @Override
             public void log(String message) {
-                Log.e("XX", message);
+                int segmentSize = 4 * 1024;
+                long length = message.length();
+                if (length <= segmentSize ) {// 长度小于等于限制直接打印
+                    Log.e("XX", message);
+                }else {
+                    while (message.length() > segmentSize) {// 循环分段打印日志
+                        String logContent = message.substring(0, segmentSize );
+                        Log.e("XX", logContent);
+                        return;
+                    }
+                }
             }
         };
 

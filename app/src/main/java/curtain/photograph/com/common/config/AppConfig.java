@@ -5,7 +5,10 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 import base.util.LogUtil;
 import curtain.photograph.com.base.App;
@@ -21,7 +24,9 @@ public class AppConfig {
     public final static String RELEASE = "release";
     public final static String DEBUG = "debug";
     public final static String TEST = "test";
-    public static final String PORT_TYPE = DEBUG;
+    public final static String UMENG_SECRET = "ff12e23775a5d291c98d89a87246e781";
+    public final static String UMENG_APPKEY = "5aab5b60b27b0a22810003cb";
+    public static final String PORT_TYPE = RELEASE;
 
     /**
      * 判断Service是否在运行
@@ -104,6 +109,14 @@ public class AppConfig {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        Map<String, Object> reportObj = new HashMap<>();
+        String modelScore = "";
+        reportObj.put("reportScore",modelScore!=null?modelScore:"");
+        LinkedHashMap<String,Object> resultList = new LinkedHashMap<>();
+        String modelLevel =  (String) resultList.get("model_creditAdmitLevel");
+        reportObj.put("reportLevel",modelLevel!=null?modelLevel:"");
+        String opinion =  (String) resultList.get("flowNode_gradientoutput");
+        reportObj.put("reportOpinion",opinion!=null?opinion:"");
         return pi;
     }
 }

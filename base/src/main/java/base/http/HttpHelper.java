@@ -57,7 +57,6 @@ public class HttpHelper {
 
     public static <T> Call execute(Request request, final Callback<T> callback) {
         Call call = sOkHttpClient.newCall(request);
-//        if (mockApiTest) return call;
         call.enqueue(new okhttp3.Callback() {
             @Override
             public void onFailure(Call call, IOException e) {

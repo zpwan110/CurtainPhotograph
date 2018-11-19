@@ -15,11 +15,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.AbsListView;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.Scroller;
+import android.widget.TextView;
 
 import java.lang.reflect.Field;
+
+import jingshu.com.base.R;
 
 /**
  * Created by zpwan110 on 2017/4/10.
@@ -86,6 +90,12 @@ public class BaseRefreshLayout extends LinearLayout {
      */
     private int mMaxWholeHeaderViewPaddingTop;
 
+    public int page =1;
+    public static final int SIZE =10;
+    public static final String REFRESH= "refresh";
+    public static final String LOADMORE= "loadmore";
+    public static final String NONE= "none";
+    public String refereshStatue= REFRESH;
     /**
      * 是否处于正在加载更多状态
      */
@@ -122,7 +132,6 @@ public class BaseRefreshLayout extends LinearLayout {
 
     /********************************使控件平滑的参数**********************************/
     private Scroller mScroller;  // add view滑动的矢量， 并没有真正滑动的功能
-
 
 
     public BaseRefreshLayout(Context context) {
@@ -903,17 +912,17 @@ public class BaseRefreshLayout extends LinearLayout {
      */
     private void showLodingNoMoreView() {
         mLoadMoreFooterView.setVisibility(VISIBLE);
-        /*TextView nomorl =(TextView) mLoadMoreFooterView.findViewById(R.id.tv_normal_refresh_footer_status);
+        TextView nomorl =(TextView) mLoadMoreFooterView.findViewById(R.id.tv_normal_refresh_footer_status);
         ImageView ivLoading =(ImageView) mLoadMoreFooterView.findViewById(R.id.iv_normal_refresh_footer_chrysanthemum);
         ivLoading.setVisibility(GONE);
-        nomorl.setText("没有更多数据了！");*/
+        nomorl.setText("没有更多数据了！");
     }
     private void endLodingNoMoreView() {
         mLoadMoreFooterView.setVisibility(GONE);
-        /*TextView nomorl =(TextView) mLoadMoreFooterView.findViewById(R.id.tv_normal_refresh_footer_status);
+        TextView nomorl =(TextView) mLoadMoreFooterView.findViewById(R.id.tv_normal_refresh_footer_status);
         ImageView ivLoading =(ImageView) mLoadMoreFooterView.findViewById(R.id.iv_normal_refresh_footer_chrysanthemum);
         ivLoading.setVisibility(VISIBLE);
-        nomorl.setText("加载中...");*/
+        nomorl.setText("加载中...");
     }
 
     public void hasMoreData(boolean b){
@@ -922,6 +931,13 @@ public class BaseRefreshLayout extends LinearLayout {
         }else{
             endLodingNoMoreView();
         }
+    }
+    public boolean isHasMore(){
+        if (mRecyclerView != null) {
+            BaseRecyclerAdapter baseRecyclerAdapter = (BaseRecyclerAdapter) mRecyclerView.getAdapter();
+            return baseRecyclerAdapter.hasMore;
+        }
+        return true;
     }
 
     /**

@@ -26,7 +26,7 @@ public class HttpUploadFileHelp {
      * @param maps 附带的参数
      * @return
      */
-    public static Request getUploadFileRequest(String url, String keyfile, File file, Map<String, String> maps){
+    public static Request postUploadFileRequest(String url, String keyfile, File file, Map<String, String> maps){
         MultipartBody.Builder builder=  new MultipartBody.Builder().setType(MultipartBody.FORM);
         String fileName = file.getName();
         if(maps==null){
@@ -49,7 +49,7 @@ public class HttpUploadFileHelp {
      * @param json
      * @return
      */
-    public static Request getUploadFileJsonRequest(String fileKey, String url, File file, String json){
+    public static Request postUploadFileJsonRequest(String fileKey, String url, File file, String json){
         MultipartBody.Builder builder=  new MultipartBody.Builder().setType(MultipartBody.FORM);
         String fileName = file.getName();
         if(TextUtils.isEmpty(json)){
@@ -64,7 +64,7 @@ public class HttpUploadFileHelp {
         RequestBody body=builder.build();
         return   new Request.Builder().url(url).post(body).build();
     }
-    public static Request getUploadFileRequest(String url, String[] keyfiles, File[] files, Map<String, String> maps){
+    public static Request postUploadFileRequest(String url, String[] keyfiles, File[] files, Map<String, String> maps){
         MultipartBody.Builder builder=  new MultipartBody.Builder().setType(MultipartBody.FORM);
         String fileName;
         if(maps!=null){
@@ -88,7 +88,7 @@ public class HttpUploadFileHelp {
      * @param maps 附带的参数
      * @return
      */
-    public static Request getUploadFileRequest(String url, String keyfile, byte[] file, Map<String, String> maps){
+    public static Request postUploadFileRequest(String url, String keyfile, byte[] file, Map<String, String> maps){
         MultipartBody.Builder builder=  new MultipartBody.Builder().setType(MultipartBody.FORM);
         if(maps==null){
             builder.addPart( Headers.of("Content-Disposition", "form-data; name=\""+keyfile+"\";"), RequestBody.create(MediaType.parse("image/png"),file)
@@ -103,7 +103,7 @@ public class HttpUploadFileHelp {
         RequestBody body=builder.build();
         return   new Request.Builder().url(url).post(body).build();
     }
-    public static Request getUploadFileRequest(String url, Map<String,byte[]> images, Map<String, String> maps){
+    public static Request postUploadFileRequest(String url, Map<String,byte[]> images, Map<String, String> maps){
         MultipartBody.Builder builder=  new MultipartBody.Builder().setType(MultipartBody.FORM);
         if(maps!=null){
             for (String key : maps.keySet()) {

@@ -1,5 +1,6 @@
 package base;
 
+import android.content.Context;
 import android.graphics.Color;
 import android.graphics.LightingColorFilter;
 import android.graphics.drawable.Drawable;
@@ -24,6 +25,14 @@ import base.injectionview.InjectionUtil;
 
 public class BaseFragment extends Fragment {
     protected View rootView;
+    protected Context mContext;
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        this.mContext = getContext();
+    }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

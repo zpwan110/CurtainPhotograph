@@ -130,6 +130,7 @@ public class NormalRefreshViewHolder extends BaseRefreshViewHolder{
 
     @Override
     public void handleScale(float scale, int moveYDistance) {
+
     }
 
     @Override

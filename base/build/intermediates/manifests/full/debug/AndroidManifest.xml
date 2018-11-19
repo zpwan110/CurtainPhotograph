@@ -19,6 +19,9 @@
         <activity
             android:name="base.BaseFragmentHostActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="base.imagezoom.activity.ImagePagerActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

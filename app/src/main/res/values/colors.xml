@@ -7,7 +7,9 @@
     <color name="white" >#ffffff</color>
     <color name="main_bg">#123456</color>
     <color name="main_gray_text">#767574</color>
+    <color name="window_bg">#40000000</color>
     <color name="main_black_text">#000000</color>
+    <color name="black_text">#000000</color>
     <color name="tran_white" >#30ffffff</color>
     <color name="view_driver">#f4f4f4</color>
     <color name="font_gray">#c9c9c9</color>
@@ -30,4 +32,12 @@
     <color name="font_normal">#332f28</color>
     <color name="cut_line">#ecf1f4</color>
     <color name="goods_detail_btn_blue">#38adff</color>
+    <color name="button_text">#ff9600</color>
+    <color name="tab_text_normal">#686966</color>
+    <color name="comui_tab_text_color">#eeeeee</color>
+    <color name="text_color">#fefefe</color>
+    <color name="text_selecte_color">#8a8a8a</color>
+    <color name="text_bg_color">#2c2c2c</color>
+    <color name="btn_radio_on" >#ffffff</color>
+    <color name="btn_radio_off">#d3bd51</color>
 </resources>

@@ -20,10 +20,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
 }
 
 dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
@@ -33,4 +38,6 @@ dependencies {
     api rootProject.ext.dependencies.junit
     api rootProject.ext.dependencies.fastjson
     api rootProject.ext.dependencies.recyclerview
+
+
 }

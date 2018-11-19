@@ -281,6 +281,14 @@ public abstract class BaseRefreshViewHolder {
         }
         return 0;
     }
+    public int getRefreshHeaderViewWidth() {
+        if (mRefreshHeaderView != null) {
+            // 测量下拉刷新控件的高度
+            mRefreshHeaderView.measure(0, 0);
+            return mRefreshHeaderView.getMeasuredWidth();
+        }
+        return 0;
+    }
 
     /**
      * 改变整个下拉刷新头部控件移动一定的距离（带动画），自定义刷新控件进入刷新状态前后的高度有变化时可以使用该方法（参考BGAStickinessRefreshView）
