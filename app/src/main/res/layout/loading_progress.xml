@@ -15,7 +15,7 @@
         android:minWidth="100dp"
         android:orientation="vertical" >
 
-        <curtain.photograph.com.ui.customview.ProgressWheel
+        <com.crowd.curtain.ui.customview.ProgressWheel
             android:id="@+id/loading_progressbar"
             android:layout_width="50dp"
             android:layout_height="50dp"

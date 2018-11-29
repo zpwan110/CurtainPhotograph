@@ -7,7 +7,7 @@
     android:background="@drawable/curtain_bg"
     android:padding="0.8dp"
     >
-<curtain.photograph.com.ui.customview.RoundCornerImageView
+<com.crowd.curtain.ui.customview.RoundCornerImageView
     xmlns:fix="http://schemas.android.com/apk/res-auto"
     android:id="@+id/iv_curtain"
     android:layout_width="match_parent"

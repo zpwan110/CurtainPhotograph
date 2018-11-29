@@ -27,7 +27,7 @@
                 fix:baseOnWidth="true"
                 fix:ratio="0.5">
 
-                <curtain.photograph.com.ui.customview.AutoPlayViewPager
+                <com.crowd.curtain.ui.customview.AutoPlayViewPager
                     android:id="@+id/main_viewpager"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
