@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/mipmap/tips_ok.png",
+        "source": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/src/main/res/mipmap/tips_ok.png"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/mipmap/back_left.png",
+        "source": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/src/main/res/mipmap/back_left.png"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/mipmap/tips_failed.png",
+        "source": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/src/main/res/mipmap/tips_failed.png"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/mipmap/login_close.png",
+        "source": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/src/main/res/mipmap/login_close.png"
+    }
+]

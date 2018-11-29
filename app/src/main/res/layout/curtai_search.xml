@@ -7,7 +7,7 @@
     android:orientation="horizontal"
     android:layout_marginBottom="15dp"
     >
-    <curtain.photograph.com.ui.customview.RoundCornerImageView
+    <com.crowd.curtain.ui.customview.RoundCornerImageView
         android:id="@+id/iv_curtain_thumb"
         android:layout_width="62dp"
         android:layout_height="62dp"

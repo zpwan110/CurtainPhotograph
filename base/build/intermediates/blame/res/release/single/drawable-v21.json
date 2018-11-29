@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fc140585b5479eaf5fd53adc58b8a187/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]

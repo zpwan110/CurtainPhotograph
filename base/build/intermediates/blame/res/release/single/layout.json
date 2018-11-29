@@ -1,0 +1,214 @@
+[
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/view_refresh_header_stickiness.xml",
+        "source": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/src/main/res/layout/view_refresh_header_stickiness.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fc140585b5479eaf5fd53adc58b8a187/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/activity_preview.xml",
+        "source": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/src/main/res/layout/activity_preview.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/729375a275cfd556ea6e0a5f7d5fe4be/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fc140585b5479eaf5fd53adc58b8a187/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/view_refresh_header_normal.xml",
+        "source": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/src/main/res/layout/view_refresh_header_normal.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_select_dialog_material.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_search_view.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/view_normal_refresh_footer.xml",
+        "source": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/src/main/res/layout/view_normal_refresh_footer.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/notification_template_lines_media.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/729375a275cfd556ea6e0a5f7d5fe4be/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/notification_media_action.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/729375a275cfd556ea6e0a5f7d5fe4be/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/base_webview.xml",
+        "source": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/src/main/res/layout/base_webview.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/notification_template_big_media_custom.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/729375a275cfd556ea6e0a5f7d5fe4be/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_screen_content_include.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/729375a275cfd556ea6e0a5f7d5fe4be/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/tooltip.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/tooltip.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_screen_toolbar.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/notification_media_cancel_action.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/729375a275cfd556ea6e0a5f7d5fe4be/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fc140585b5479eaf5fd53adc58b8a187/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/notification_template_media.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/729375a275cfd556ea6e0a5f7d5fe4be/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/notification_template_media_custom.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/729375a275cfd556ea6e0a5f7d5fe4be/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fc140585b5479eaf5fd53adc58b8a187/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/notification_template_big_media.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/729375a275cfd556ea6e0a5f7d5fe4be/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_dialog_title_material.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/activity_permissions.xml",
+        "source": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/src/main/res/layout/activity_permissions.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fc140585b5479eaf5fd53adc58b8a187/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_screen_simple.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/fragment_preview.xml",
+        "source": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/src/main/res/layout/fragment_preview.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2e9f7ba851b256aa3f33c037d8a76d15/res/layout/abc_action_mode_close_item_material.xml"
+    }
+]

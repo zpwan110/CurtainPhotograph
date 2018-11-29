@@ -68,7 +68,7 @@
             android:src="@mipmap/ico_cours" />
     </RelativeLayout>
 
-    <curtain.photograph.com.ui.customview.NoScrollViewPager
+    <com.crowd.curtain.ui.customview.NoScrollViewPager
         android:id="@+id/contentLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -76,5 +76,5 @@
         android:layout_below="@+id/rl_cursor"
         >
 
-    </curtain.photograph.com.ui.customview.NoScrollViewPager>
+    </com.crowd.curtain.ui.customview.NoScrollViewPager>
 </RelativeLayout>

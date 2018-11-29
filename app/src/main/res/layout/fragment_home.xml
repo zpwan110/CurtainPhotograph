@@ -27,7 +27,7 @@
                 fix:baseOnWidth="true"
                 fix:ratio="0.5">
 
-                <curtain.photograph.com.ui.customview.AutoPlayViewPager
+                <com.crowd.curtain.ui.customview.AutoPlayViewPager
                     android:id="@+id/main_viewpager"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
                     android:layout_height="1dp"
                     android:layout_below="@+id/type_head"
                     android:background="#F2F2F5" />
-                <!--<curtain.photograph.com.ui.customview.XHorizontalListView
+                <!--<com.crowd.curtain.ui.customview.XHorizontalListView
                     android:id="@+id/cate_body_type"
                     android:layout_width="match_parent"
                     android:layout_height="96dp"

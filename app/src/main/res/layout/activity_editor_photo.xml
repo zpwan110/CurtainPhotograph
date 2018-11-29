@@ -54,7 +54,7 @@
             android:src="@mipmap/ico_select" />
     </RelativeLayout>
 
-    <curtain.photograph.com.ui.customview.PolyToPolyView
+    <com.crowd.curtain.ui.customview.PolyToPolyView
         android:id="@+id/ic_touch"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

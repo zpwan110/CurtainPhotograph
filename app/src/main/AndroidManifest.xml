@@ -45,7 +45,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.activity.LaunchActivity"
+            android:name="com.crowd.curtain.ui.activity.LaunchActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
@@ -57,74 +57,74 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.activity.MainActivity"
+            android:name="com.crowd.curtain.ui.activity.MainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle"></activity>
         <activity
-            android:name=".ui.activity.LoginActivity"
+            android:name="com.crowd.curtain.ui.activity.LoginActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/LoginStyle" />
         <activity
-            android:name=".ui.activity.SettingActivity"
+            android:name="com.crowd.curtain.ui.activity.SettingActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle" />
         <activity
-            android:name=".ui.activity.MessageActivity"
+            android:name="com.crowd.curtain.ui.activity.MessageActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle" />
         <activity
-            android:name=".ui.activity.UserInfoActivity"
+            android:name="com.crowd.curtain.ui.activity.UserInfoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle" />
         <activity
-            android:name=".ui.activity.ForgetPwdActivity"
+            android:name="com.crowd.curtain.ui.activity.ForgetPwdActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle" />
         <activity
-            android:name=".ui.activity.UpdatePwdActivity"
+            android:name="com.crowd.curtain.ui.activity.UpdatePwdActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle" />
         <activity
-            android:name=".ui.activity.ProductDetailActivity"
+            android:name="com.crowd.curtain.ui.activity.ProductDetailActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle" />
         <activity
-            android:name=".ui.activity.BindPhoneActivity"
+            android:name="com.crowd.curtain.ui.activity.BindPhoneActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle" />
         <activity
-            android:name=".ui.activity.UploadCaseActivity"
+            android:name="com.crowd.curtain.ui.activity.UploadCaseActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle" />
         <activity
-            android:name=".ui.activity.UploadPreviewActivity"
+            android:name="com.crowd.curtain.ui.activity.UploadPreviewActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle" />
         <activity
-            android:name=".ui.activity.EditorPhotoActivity"
+            android:name="com.crowd.curtain.ui.activity.EditorPhotoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".ui.activity.VideoPlayerActivity"
+            android:name="com.crowd.curtain.ui.activity.VideoPlayerActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle" />
         <activity
-            android:name=".ui.activity.SearchActivity"
+            android:name="com.crowd.curtain.ui.activity.SearchActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle" />
         <activity
-            android:name=".ui.activity.ShareActivity"
+            android:name="com.crowd.curtain.ui.activity.ShareActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle" />
         <activity
-            android:name=".ui.activity.AboutUsActivity"
+            android:name="com.crowd.curtain.ui.activity.AboutUsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle" />
         <activity
-            android:name=".ui.activity.VersionActivity"
+            android:name="com.crowd.curtain.ui.activity.VersionActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainStyle" />
 
@@ -139,10 +139,10 @@
         </provider>
 
         <activity
-            android:name=".ui.activity.GuideActivity"
+            android:name="com.crowd.curtain.ui.activity.GuideActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".wxapi.WXEntryActivity"
+            android:name="com.crowd.curtain.wxapi.WXEntryActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
 

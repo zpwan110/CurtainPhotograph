@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<curtain.photograph.com.ui.customview.HorizontalRefreshLayout
+<com.crowd.curtain.ui.customview.HorizontalRefreshLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/refreshParent"
     android:layout_width="match_parent"
@@ -11,4 +11,4 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 </android.support.v7.widget.RecyclerView>
-</curtain.photograph.com.ui.customview.HorizontalRefreshLayout>
+</com.crowd.curtain.ui.customview.HorizontalRefreshLayout>

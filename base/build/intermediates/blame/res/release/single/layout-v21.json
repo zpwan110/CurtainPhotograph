@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fc140585b5479eaf5fd53adc58b8a187/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fc140585b5479eaf5fd53adc58b8a187/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fc140585b5479eaf5fd53adc58b8a187/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/hubo/AndroidStudioProjects/CurtainPhotograph/base/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/hubo/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fc140585b5479eaf5fd53adc58b8a187/res/layout-v21/notification_action.xml"
+    }
+]
